@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+body{
+    background-color: rgb(43, 42, 42);
+}
+.conten{
+    background-color: aliceblue;
+    margin: 10px auto;
+    width: 840px;
+    overflow: auto;
+}
+.utama{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 2px;
+}
+.list{
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+    padding: 0;
+    font-size: 0;
+}
+.utama img{
+    width: 100%;
+}
+.list img{
+    width: 32.85%;
+    box-sizing: border-box;
+    margin: 1px;
+}
+.list img:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+img{
+    margin: 0px;
+}
+
+@keyframes fade{
+    to {
+        opacity: 1;
+    }
+}
+
+.fade{
+    opacity: 0;
+    width: 0;
+    animation: fade 1s forwards;
+}
+
+.aktif{
+    opacity: .7;
+}

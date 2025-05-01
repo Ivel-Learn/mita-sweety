@@ -1,0 +1,34 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.5em;
+    height: 100%;
+}
+body.ubahWarna{
+    background-color: lightskyblue;
+}
+button{
+    margin:0 6px
+}
+div{
+    height: 25px;
+    width: 25px;
+    margin: 15px auto;
+}
+.kotakR{
+    background-color: red;
+}
+.kotakG{
+    background-color: green;
+}
+.kotakB{
+    background-color: blue;
+}
+input{
+    width: 25em;
+}
